@@ -2,15 +2,15 @@
     <Source>
         <Name>perl-sgmlspm</Name>
         <Packager>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Packager>
         <License>GPL-2.0</License>
         <PartOf>programming.perl</PartOf>
         <Summary xml:lang="en">A perl class library for sgmls and nsgmls parsers</Summary>
         <Description xml:lang="en">A perl class library for sgmls and nsgmls parsers
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>perl-sgmlspm</Name>
@@ -20,22 +20,22 @@
         <PartOf>programming.perl</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin/sgmlspl.pl</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/SGMLS.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/SGMLS/Output.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/SGMLS/Refs.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/sgmlspl-specs/skel.pl</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/SGMLS.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/SGMLS/Output.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/SGMLS/Refs.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/sgmlspl-specs/skel.pl</Path>
             <Path fileType="man">/usr/share/man/man3/SGMLS.3</Path>
             <Path fileType="man">/usr/share/man/man3/SGMLS::Output.3</Path>
             <Path fileType="man">/usr/share/man/man3/SGMLS::Refs.3</Path>
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2018-12-23</Date>
+        <Update release="4">
+            <Date>2019-06-15</Date>
             <Version>1.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Update>
     </History>
 </PISI>
