@@ -20,18 +20,18 @@
         <PartOf>programming.perl</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin/sgmlspl.pl</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/SGMLS.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/SGMLS/Output.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/SGMLS/Refs.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/sgmlspl-specs/skel.pl</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.32/SGMLS.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.32/SGMLS/Output.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.32/SGMLS/Refs.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.32/sgmlspl-specs/skel.pl</Path>
             <Path fileType="man">/usr/share/man/man3/SGMLS.3</Path>
             <Path fileType="man">/usr/share/man/man3/SGMLS::Output.3</Path>
             <Path fileType="man">/usr/share/man/man3/SGMLS::Refs.3</Path>
         </Files>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2019-06-15</Date>
+        <Update release="5">
+            <Date>2020-06-27</Date>
             <Version>1.1</Version>
             <Comment>Packaging update</Comment>
             <Name>Pierre-Yves</Name>
